@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- google font stylesheet -->
+	<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+	<!-- my stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style/styles.css">
+	<title></title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+			<div class="col-md-1">
+			</div>
+
+			<div class="col-md-10" id="headingtext">
+				<h1>CRYSTAL COLLECTORS!</h1>
+				<h2>Collect the right crystals to match the number</h2>
+			</div>
+	</div>
+
+	<div class="row">
+
+			<div class="col-md-2">
+			</div>
+
+			<section class="col-md-8" id="mainsection">
+			
+			<div class="mainblocks col-md-12" id="titlepage">
+			<div id="titleblock">
+			<p class="titletext">Ready?</p>
+			<br>
+			<p class="titletext">Press any key to begin!</p>
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="mainblocks col-md-12" id="gameGUI">
+				<span class="col-md-5" id="GUILeft">
+				<img class="gameObjects" src="assets/sapphire.png">
+				<img class="gameObjects" src="assets/ruby.png">
+				<img class="gameObjects" src="assets/topaz.png">
+				<img class="gameObjects" src="assets/emerald.png">
+				</span>
+				
+				<span class="col-md-2"></span>
+				
+				<span class="col-md-5" id="GUIRight">
+				<img id="basketcase" src="assets/basket.png">
+				<p class="basketnumber">Goal:</p>
+				<p id="objectivescore" class="basketnumber">20</p>
+				<!-- <br> -->
+				<p class="numberpos_shift">Your Score: </p>
+				<p id="userscore" class="numberpos_shift">15</p>
+				<!-- <br> -->
+				<br>
+				<p class="numberpos_shift">Games Won: </p>
+				<p id="wintracker" class="numberpos_shift">3</p>
+				</span>
+			</div>
+			</div>
+
+			<div class="mainblocks" id="gameOverScreen">
+			</div>
+
+
+			</section> <!--end of mainsection div-->
+
+			<div class="col-md-2">
+			</div>
+
+	</div>
+
+
+	<div class="row">
+	<footer>
+		<p>&copy; Renzhi "Grant" Chan 2017</p>
+	</footer>	
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/crystalgame.js"></script>
+</body>
+</html>
