@@ -28,8 +28,12 @@ h1, h2{
 	margin-right:70px;  
 }
 
-.gameObjects:hover{
+.mainmenu:hover, .gameagain:hover, .gameObjects:hover{
 	cursor: pointer;
+}
+
+.mainmenu:hover, .gameagain:hover {
+color: gray;
 }
 
 #basketcase{
@@ -50,7 +54,7 @@ h1, h2{
 	bottom: 80px;
 }
 
-#titlepage{
+#gameOverScreen, #titlepage{
 	margin-top: 40px;
 	height: 450px;
 	background: white;
@@ -75,9 +79,7 @@ h1, h2{
 	text-align: center;
 }
 
-
-
-#titleblock{
+#GameEnd, #titleblock{
 	padding-top:175px;
 	padding-bottom: 175px; 
 	font-family: 'Merienda One', cursive;
@@ -86,6 +88,11 @@ h1, h2{
 	text-align: center;
 	color: black;
 	width:100%;
+}
+
+#spacer{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 body{

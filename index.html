@@ -40,10 +40,10 @@
 			<div class="row">
 			<div class="mainblocks col-md-12" id="gameGUI">
 				<span class="col-md-5" id="GUILeft">
-				<img class="gameObjects" src="assets/sapphire.png">
-				<img class="gameObjects" src="assets/ruby.png">
-				<img class="gameObjects" src="assets/topaz.png">
-				<img class="gameObjects" src="assets/emerald.png">
+				<img class="gameObjects" id="sapp" src="assets/sapphire.png">
+				<img class="gameObjects" id="ruby" src="assets/ruby.png">
+				<img class="gameObjects" id="topa" src="assets/topaz.png">
+				<img class="gameObjects" id="emer" src="assets/emerald.png">
 				</span>
 				
 				<span class="col-md-2"></span>
@@ -51,10 +51,10 @@
 				<span class="col-md-5" id="GUIRight">
 				<img id="basketcase" src="assets/basket.png">
 				<p class="basketnumber">Goal:</p>
-				<p id="objectivescore" class="basketnumber">20</p>
+				<p id="objectivescore" class="basketnumber"></p>
 				<!-- <br> -->
 				<p class="numberpos_shift">Your Score: </p>
-				<p id="userscore" class="numberpos_shift">15</p>
+				<p id="userscore" class="numberpos_shift"></p>
 				<!-- <br> -->
 				<br>
 				<p class="numberpos_shift">Games Won: </p>
@@ -63,7 +63,16 @@
 			</div>
 			</div>
 
-			<div class="mainblocks" id="gameOverScreen">
+			<div class="mainblocks col-md-12" id="gameOverScreen">
+				<div id="GameEnd">
+					<p id="GOtext1">You lost!</p>
+					<br>
+					<p id="GOtext2">Try again?</p>
+					<br>
+					<span class="gameagain">Yes</span>
+					<span id="spacer">   </span>
+					<span class="mainmenu">No</span>
+				</div>
 			</div>
 
 
@@ -83,6 +92,8 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="assets/crystalgame.js"></script>
+<script src="assets/crystalgame.js">
+</script>
+
 </body>
 </html>
